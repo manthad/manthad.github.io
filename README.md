@@ -1,4 +1,4 @@
 # manthad.github.io
 title: My First GitHub Pages Site
-description: A simple site using GitHub Pages
+description: A complex site using GitHub Pages
 theme: minima
