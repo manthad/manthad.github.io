@@ -1,14 +1,12 @@
 ---
 layout: page
-title: "Python Course Overview"
+title: ""
 permalink: /python-course/
 ---
 
-## Python Course Overview
-
 This course includes:
-- Basics of Python
-- Flow Control
+- [Basics of Python](/basics-of-python/)
+- [Flow Control](/flow-control/)
 - Loops and Functions
 - Handling Errors
 - Lists
