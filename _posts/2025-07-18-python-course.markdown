@@ -4,10 +4,11 @@ title:  "Welcome to Python course"
 date:   2025-07-18 11:11:41 +0530
 categories: jekyll update
 ---
-# Introduction
+## Introduction
 
-Python is a powerful and easy-to-learn language:
-## Here are the few concepts we cover during this python course
+**Python is a powerful and easy-to-learn language**
+
+# Here are the few concepts we cover during this python course
 
 <!-- # print("Heyyy What is your name?")
 # name = input()
@@ -31,16 +32,16 @@ Python is a powerful and easy-to-learn language:
 
 LET US START THE PYTHON BASIC COURSE WITH RESPECTIVE PROGRAMS
 
-1. BASIC PROGRAM WITH PRINT AND INPUT:
-
-print("Hey What is your name?”)
+**1. BASIC PROGRAM WITH PRINT AND INPUT:**
+<pre>
+<i> print("Hey What is your name?”)
 name = input()
 print("Nice to meet you"+ name)
 print("Nice to meet you, " + name + "Do you want to find the letters in your name 
 and other data? ")
-option = input("Type yes or no”)
+option = input("Type yes or no”) </i></pre>
 
-if option.lower() == 'yes':
+<pre><i> if option.lower() == 'yes':
   print("the number os letters in your name is" +" "+ str(len(name.replace(" ", ""))))
   print ("what is your birth year?")
   birth_year = input()
@@ -50,21 +51,21 @@ if option.lower() == 'yes':
 
   print("Your age is" + str(age))
 else: 
-    print("Ok, have a nice day!")
+    print("Ok, have a nice day!") </i></pre>
 
 
-2. OPERATORS:
-    These are basic and, or and not operators
+**2. OPERATORS:**
+   *These are basic and, or and not operators*
 
-if (False and True) == True:
+<i> if (False and True) == True:
     print("It is an or operator")
 else:
     print("It is not an and operator")
 elif:
-    print("It is an and operator”)
+    print("It is an and operator”) </i>
 
 
-The outputs will print TRUE or FALSE based on the logic provided
+*The outputs will print TRUE or FALSE based on the logic provided*
 
 
 3. LOOPS
@@ -574,7 +575,21 @@ import pyzmail            - learn again
 
 
 
+SHEBANG LINE:
 
+#! /usr/bin/python3       # this is used as it tells the computer that we are executing a python program.
+import sys
+print('Hello World')
+print(sys.argv)
+
+o/p => python test.py arg1 arg2
+Hello World
+['test.py', 'arg1', 'arg2'].      # whateever data we have provided during execution i.e. python test.py arg1 arg2 that it is displaying
+
+
+GUI Automation: pip install pyautogui
+import pyautogui
+pyautogui.size()   
 
 
 
