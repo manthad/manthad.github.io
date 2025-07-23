@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 ## Introduction
 
-**Python is a powerful and easy-to-learn language**
+***Python is a powerful and easy-to-learn language***
 
 # Here are the few concepts we cover during this python course
 
